@@ -1,0 +1,29 @@
+{
+  "name": "GerenciadorDeConexoesNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaberRB/GerenciadorDeConexoesNode.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Rios Belmiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaberRB/GerenciadorDeConexoesNode/issues"
+  },
+  "homepage": "https://github.com/GaberRB/GerenciadorDeConexoesNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-rdp": "^1.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
